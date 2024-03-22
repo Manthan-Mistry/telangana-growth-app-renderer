@@ -11,7 +11,7 @@ from navbar import navbar
 # pages_folder = os.path.join(os.path.dirname(__name__),"Pages")
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP,dbc.icons.BOOTSTRAP],
-           suppress_callback_exceptions = True, use_pages = True, pages_folder = "pages")
+           suppress_callback_exceptions = True, use_pages = True, pages_folder = "Pages")
 server = app.server
 
 navbar = navbar
