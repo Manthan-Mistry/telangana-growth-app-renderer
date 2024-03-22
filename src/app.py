@@ -10,7 +10,7 @@ from navbar import navbar
 
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP,dbc.icons.BOOTSTRAP],
-           suppress_callback_exceptions = True, use_pages = True)
+           suppress_callback_exceptions = True, use_pages = True, pages_folder = 'Pages')
 server = app.server
 
 navbar = navbar
