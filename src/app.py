@@ -1,4 +1,5 @@
 
+import os
 import dash
 from dash import Dash
 from dash import html
@@ -7,10 +8,10 @@ from dash.dependencies import Input, Output, State
 
 from navbar import navbar
 
-
+pages_folder = os.path.join(os.path.dirname(__name__),"Pages")
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP,dbc.icons.BOOTSTRAP],
-           suppress_callback_exceptions = True, use_pages = True, pages_folder = 'Pages')
+           suppress_callback_exceptions = True, use_pages = True, pages_folder = "pages_folder")
 server = app.server
 
 navbar = navbar
