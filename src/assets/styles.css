@@ -1,0 +1,58 @@
+/* .label{
+    font-size: 12;
+    margin: 15px 5px 0 10px;
+}*/
+
+.header{
+    background-color:#FECCD7;
+    font-size: 12px;
+    font-weight:bold;
+    font-family:Arial;
+    display:flex;
+    border-radius:5px 5px 0px 0px;
+    height: 45px;
+}
+
+/* .navbar{
+    z-index:1000;
+    position:sticky;
+    top: 0,
+} */
+
+.rc-slider-handle{
+    border-color: lightslategray;
+    border: solid 2px lightslategray;
+}
+.rc-slider-track{
+    background-color: lightslategray;
+}
+.rc-slider-dot-active{
+    border-color: lightslategray ;
+    border: solid 1px lightslategray ;
+}
+.rc-slider-handle:hover{
+    border-color: lightslategray ;
+}
+/* ////////blueborder problem solved///////// */
+.rc-slider-handle:focus{
+    border-color: lightslategray ;
+    /* outline: none; */
+}
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging{
+    border-color: lightslategray;
+    box-shadow: none;
+}
+
+.rc-slider-handle .rc-slider-handle-1:active{
+    border-color: lightslategray;
+    /* outline: none; */
+}
+.rc-slider-handle-active:active{
+    border-color: lightslategray;
+}
+
+/* .insight-btn{
+    border: 1px solid red;
+    margin-left: 0;
+    margin-right: 5px;
+} */
