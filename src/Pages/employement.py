@@ -1,4 +1,5 @@
 import dash
+from dash import dcc
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 from dash import Input, Output, callback
